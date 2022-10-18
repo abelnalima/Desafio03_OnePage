@@ -149,3 +149,26 @@ main {
         line-height: 30px;
     }
 }
+
+@media (max-width: 375px) {
+    .main__content_cards {
+        padding: 75px 18px 75px 17px;
+    }
+    
+    .main__content_cards li {
+        width: 340px;
+        height: 390px;
+    }
+
+    .main__content_cards_info span {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .main__content_cards_info p {
+        max-width: 300px;
+        
+        font-size: 17px;
+        line-height: 30px;
+    }
+}

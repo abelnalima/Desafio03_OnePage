@@ -202,3 +202,33 @@
         height: 300px;
     }
 }
+
+@media (max-width: 375px) {
+    .header__content_info span {
+        max-width: 350px;
+    
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .header__content_info p {
+        max-width: 349px;
+    
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .header__content_info button {
+    
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .header__content_image svg {
+        top: 30px;
+        right: 15px;
+    
+        width: 350px;
+        height: 300px;
+    }
+}
