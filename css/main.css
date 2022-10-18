@@ -172,3 +172,28 @@ main {
         line-height: 30px;
     }
 }
+
+@media (max-width: 320px) {
+    .main__content_cards {
+        padding: 75px 10px 75px 15px;
+    }
+    
+    .main__content_cards li {
+        width: 290px;
+        height: 340px;
+    }
+
+    .main__content_cards_info span {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    
+    .main__content_cards_info p {
+        max-width: 250px;
+
+        top: 35px;
+        
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
