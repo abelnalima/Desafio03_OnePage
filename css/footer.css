@@ -101,3 +101,47 @@
         line-height: 22px;
     }
 }
+
+@media (max-width: 425px) {
+    .footer__content {
+        height: 700px;
+    }
+    
+    .footer__content p {
+        padding-top: 83px;
+    
+        font-size: 32px;
+        line-height: 40.22px;
+    }
+    
+    .footer__content_form {
+        width: 380px;
+    
+        padding-top: 36px;
+    }
+    
+    .footer__content_form input {
+        width: 373.21px;
+        height: 60px;
+    
+        margin-bottom: 20px;
+        border-radius: 5px;
+
+        padding-left: 12px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    #form_msg {
+        height: 150px;
+    
+        margin-bottom: 45px;    
+    }
+    
+    #form_btn {
+        height: 50px;
+    
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

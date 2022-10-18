@@ -12,3 +12,9 @@ body {
 
     background: var(--white-200);
 }
+
+@media (max-width: 425px) {
+    body {
+        height: 4338px;
+    }
+}
