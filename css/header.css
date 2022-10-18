@@ -115,3 +115,35 @@
         height: 309.75px;
     }
 }
+
+@media (max-width: 768px) {
+    .header__content_info span {
+        max-width: 330px;
+
+        padding-left: 41px;
+    }
+
+    .header__content_info p {
+        max-width: 330px;
+
+        padding-left: 40px;
+    }
+
+    .header__content_info button {
+        left: 41px;
+    
+        width: 100px;
+        height: 40px;
+                
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .header__content_image svg {
+        top: 50px;
+        right: 40px;
+    
+        width: 380px;
+        height: 459.75px;
+    }
+}
