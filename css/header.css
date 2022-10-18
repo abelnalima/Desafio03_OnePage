@@ -77,3 +77,41 @@
     width: 500px;
     height: 359.75px;
 }
+
+@media (max-width: 1024px) {
+    .header__content_info span {
+        max-width: 410px;
+
+        padding-left: 71px;
+
+        font-size: 32px;
+        line-height: 43px;
+    }
+
+    .header__content_info p {
+        max-width: 430px;
+
+        padding-left: 70px;
+
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .header__content_info button {
+        left: 71px;
+    
+        width: 130px;
+        height: 40px;
+                
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .header__content_image svg {
+        top: 100px;
+        right: 50px;
+    
+        width: 450px;
+        height: 309.75px;
+    }
+}

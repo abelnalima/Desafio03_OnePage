@@ -83,3 +83,12 @@ main {
 
     color: var(--gray);
 }
+
+@media (max-width: 1024px) {
+    .main__content_cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 68px 111px;
+    
+        padding: 150px 97px 150px 101px;
+    } 
+}
